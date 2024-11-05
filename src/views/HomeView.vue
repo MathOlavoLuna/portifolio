@@ -30,7 +30,7 @@ function delay(ms: number) {
     </v-row>
     <v-row>
       <v-col cols="12" lg="12" class="d-flex flex-column align-center">
-        <h1 class="text-h1">Tecnoogias</h1>
+        <h1 class="text-h1">Tecnologias</h1>
         <span class="text-h5 mt-4">Atualmente essas são as tecnologias que mais vejo no meu dia a dia.</span>
         <v-list class="d-flex justify-center bg-primary flex-wrap">
           <v-list-item>
@@ -61,8 +61,19 @@ function delay(ms: number) {
         </v-list>
       </v-col>
     </v-row>
+    <v-row class="bg-primary">
+      <v-col cols="12" lg="12" class="d-flex flex-column align-center">
+        <h1 class="text-h1">Projetos</h1>
+        <span class="text-h5 mt-4">Cada </span>
+        <v-list class="d-flex justify-center bg-primary flex-wrap">
+          <v-list-item>
+            <img src="/src/assets/grow-twitter.png" draggable="false" class="project-grow-twitter"/>
+          </v-list-item>
+        </v-list>
+      </v-col>
+    </v-row>
   </v-container>
-</template>draggble
+</template>
 
 <style scoped>
   .tecnologies-icons{
